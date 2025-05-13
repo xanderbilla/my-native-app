@@ -6,7 +6,8 @@ const myTheme = {
     colors:{
         ...DarkTheme.colors,
         primary:"white",
-
+        background : "black",
+        card: "#101010",
     }
 }
 export default function RootLayout(){
