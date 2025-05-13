@@ -4,7 +4,7 @@ import { Link } from 'expo-router';
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text>Hello Ankit</Text>
+      <Text className='text-3xl '>Hello Ankit</Text>
       <StatusBar style="auto" />
     </View>
   );
