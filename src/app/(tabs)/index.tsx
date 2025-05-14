@@ -1,10 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { Link } from 'expo-router';
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text className='text-3xl '>Hello Ankit</Text>
+      <Text className='text-3xl text-red-500'>Hello Ankit</Text>
       <StatusBar style="auto" />
     </View>
   );
